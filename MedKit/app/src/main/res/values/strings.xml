@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">MedKit</string>
+    <string name="Reminder">Remind me to…</string>
+    <string name="ConfirmButton">Confirm</string>
+    <string name="ReminderConfirm">Reminder</string>
+    <string name="YourReminder">Your Reminder Here</string>
+    <string name="Time">Time</string>
+    <string name="TimeText">Reminder Time Here</string>
+    <string name="Date">Date</string>
+    <string name="DateText">Reminder Date Here</string>
+    <string name="AboutUs">About Us</string>
+    <string name="about_text">We are a team of clever creatives,\n
+        sharp marketers and\n
+        savvy developers working together to\n
+    create amazing content and make sure the world sees it.
+    </string>
+    <string name="Members">Our Team</string>
+    <string name="MembersName">A. H. M. Rezaul Karim \n
+    Fardin Ahsan Sakib \n
+        Ahmad Imam
+    </string>
+    <string name="wrong">What went wrong?</string>
+    <string name="report">Report a problem</string>
+    <string name="faq">FAQ</string>
+    <string name="ques1">How Do I make an order?</string>
+    <string name="ques2">How to use the nutrition plan ?</string>
+    <string name="ques3">What is the food reminder for?</string>
+    <string name="ques4">How to use the medicine reminder?</string>
+    <string name="ques5">How to use the food exchange ?</string>
+    <string name="ques6">What to do if I forget my password?</string>
+    <string name="ques7">What if I find a bug in the code?</string>
+    <string name="ques8">It is taking forever to upload a prescription.What do I do ?</string>
+    <string name="ans1">Log In. Go to Purchase from the menu. Upload the picture of the prescription.Enter names of the medicine with quantity.Fill out the information form and your order has been placed .</string>
+    <string name="ans2">The app automatically suggests a nutrition plan based on your profile. Update your profile regularly with weight changes and the app will suggest a new diet according to your needs. Follow the diet, trust me, it works.  </string>
+    <string name="ans3">Taking your meals on time is important. We understand you are too busy to remember this. No problem, we will remind you.Just select a good time from the food reminder menu and we are on it.</string>
+    <string name="ans4">You should always take your medicine on time. We will make sure that you do.Select a time , set alarm and we will take care of the rest.</string>
+    <string name="ans5">If you get bored of your diet, we have a hack for you ;) You can always choose any other food in place of it from the food exchange , just dont forget about eating the right amount.</string>
+    <string name="ans6">We got you covered. Enter your email. Click on forget password and we will send you a link for a passord reset.</string>
+    <string name="ans7">Tell about it in the feedback. We will love to hear from you.</string>
+    <string name="ans8">Its probably your internet connection. Wait a little longer ,please?</string>
+    <string name="back_button_text">Back</string>
+    <string name="reminders">Reminders</string>
+    <string name="no_reminder">You Have No Reminder</string>
+    <string name="id">id</string>
+    <string name="purchase">Purchase</string>
+    <string name="clock">Reminder</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="show_reminder">Show Reminder</string>
+    <string name="feed_back">Feed Back</string>
+    <string name="about_us">About Us</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="help">Help</string>
+    <string name="user">User</string>
+    <string name="user_example_com">user@example.com</string>
+    <string name="todo">TODO</string>
+    <string name="navigation_open">Open navigation drawer</string>
+    <string name="navigation_close">Close navigation drawer</string>
+    <string name="home">Home</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back">Back</string>
+    <string name="transaction">Transaction</string>
+    <string name="confirm">Confirm</string>
+    <string name="quantity">Quantity</string>
+    <string name="medicine_name">Medicine Name</string>
+    <string name="food_exchange">Food Exchange</string>
+</resources>

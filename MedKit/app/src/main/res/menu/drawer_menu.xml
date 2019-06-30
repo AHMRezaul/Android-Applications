@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/HomeMenuId"
+            android:icon="@drawable/ic_home_black_24dp"
+
+            android:title="@string/home" />
+        <item
+            android:id="@+id/ProfileMenuId"
+            android:icon="@drawable/ic_person_black_24dp"
+
+            android:title="Profile" />
+
+        <item android:title="Purchase">
+            <menu>
+
+                <item
+                    android:id="@+id/PurchaseMenuId"
+                    android:icon="@drawable/ic_local_grocery_store_black_24dp"
+
+                    android:title="@string/purchase" />
+                <item
+                    android:id="@+id/TransactionMenuId"
+                    android:icon="@drawable/ic_attach_money_black_24dp"
+
+                    android:title="@string/transaction" />
+
+            </menu>
+        </item>
+
+        <item android:title="Reminders">
+            <menu>
+                <item
+                    android:id="@+id/SetReminderMenuId"
+                    android:icon="@drawable/ic_alarm_black_24dp"
+
+                    android:title="Medicine Reminder" />
+
+                <item
+                    android:id="@+id/FoodReminderMenuId"
+                    android:icon="@drawable/restaurant"
+
+                    android:title="Food Reminder" />
+                <item
+                    android:id="@+id/ShowReminderMenuId"
+                    android:icon="@drawable/ic_assignment_black_24dp"
+
+                    android:title="@string/show_reminder" />
+
+            </menu>
+        </item>
+        <item android:title="Food">
+            <menu>
+                <item
+                    android:id="@+id/FoodExchangeId"
+                    android:icon="@drawable/nutrition"
+
+                    android:title="@string/food_exchange" />
+                <item
+                    android:id="@+id/FoodPlanId"
+                    android:icon="@drawable/exchange"
+
+                    android:title="Food Plan" />
+
+            </menu>
+        </item>
+
+
+        <item android:title="Others">
+            <menu>
+                <item
+                    android:id="@+id/FeedBackMenuId"
+                    android:icon="@drawable/ic_send_black_24dp"
+                    android:title="@string/feed_back" />
+
+
+                <item
+                    android:id="@+id/HelpMenuId"
+                    android:icon="@drawable/ic_help_black_24dp"
+
+                    android:title="@string/help" />
+                <item
+                    android:id="@+id/AboutUsMenuId"
+                    android:icon="@drawable/about"
+
+                    android:title="@string/about_us" />
+                <item
+                    android:id="@+id/SignOutMenuId"
+                    android:icon="@drawable/ic_power_settings_new_black_24dp"
+
+                    android:title="@string/sign_out" />
+
+                <item
+                    android:id="@+id/exitMenuId"
+                    android:icon="@drawable/exit"
+                    android:title="Exit" />
+
+            </menu>
+        </item>
+
+
+    </group>
+
+</menu>

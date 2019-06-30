@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.medkit">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.androidtutorialpoint.mymapsappsdirection.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/medkit_logo_final"
+        android:label="@string/app_name"
+        android:noHistory="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".WelcomeScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Broadcast Receiver for Breakfast -->
+        <receiver android:name=".NotifyBreakfast">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".NotificationBreakfast" /> <!-- Broadcast Receiver for Lunch -->
+        <receiver android:name=".NotifyLunch">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".NotificationLunch" /> <!-- Broadcast Receiver for Snacks -->
+        <receiver android:name=".NotifySnacks">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".NotificationSnacks" /> <!-- Broadcast Receiver for Dinner -->
+        <receiver android:name=".NotifyDinner">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".NotificationDinner" />
+
+        <activity android:name=".FoodReminder" />
+        <activity android:name=".Details" />
+        <activity android:name=".ImageActivity" />
+        <activity android:name=".userinfo" />
+        <activity android:name=".Prescription" />
+        <activity android:name=".DetailsActivity" />
+        <activity android:name=".Purchase" />
+        <activity android:name=".FoodPlan" />
+        <activity android:name=".Profile" />
+        <activity android:name=".SignUp" />
+        <activity android:name=".order_address"/>
+        <activity android:name=".SignIn">
+
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Reminder" />
+        <activity android:name=".FoodExchange" />
+        <activity android:name=".FoodExchangeDetails" />
+        <activity android:name=".HelpAnswer" />
+        <activity android:name=".Help" />
+        <activity android:name=".FeedBack" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".ReminderConfirmation" />
+        <activity android:name=".Confirmed" />
+        <activity
+            android:name=".NavigationView"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ShowReminder" />
+    </application>
+
+</manifest>

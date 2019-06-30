@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/midnight_blue"
+    android:orientation="vertical"
+    tools:context=".FeedBack">
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="176dp"
+        android:src="@drawable/feedback1"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/clouds"
+        android:textSize="30sp"
+        android:layout_margin="30dp"
+        android:text="@string/report"
+        android:textStyle="bold|italic"
+        android:gravity="center_horizontal"
+        />
+
+    <EditText
+        android:id="@+id/feedbackedittextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:hint="@string/wrong"
+        android:gravity="center_horizontal"
+        android:layout_margin="20dp"
+        android:textColorHint="@color/concrete"/>
+
+    <Button
+        android:id="@+id/ProblemConfirmButtonId"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|bottom"
+        android:text="@string/ConfirmButton"
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

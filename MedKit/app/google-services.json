@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "243541329349",
+    "firebase_url": "https://medkit-50f6c.firebaseio.com",
+    "project_id": "medkit-50f6c",
+    "storage_bucket": "medkit-50f6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:243541329349:android:7911bfacc50159fa",
+        "android_client_info": {
+          "package_name": "com.example.medkit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "243541329349-dh57ap0cntfivj5no61m7j0mrimvjf91.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medkit",
+            "certificate_hash": "4ace9da7548d806ad8fe97a2ded52b37617c32d9"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4FZpIOasrpVYxjqKBSDQgKCl-_G6JnEQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "243541329349-2et7tq65bm5jtgkm13km6rm3eas426f2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

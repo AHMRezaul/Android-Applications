@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/midnight_blue"
+    tools:context=".ReminderConfirmation">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+
+
+            <LinearLayout
+                android:layout_margin="30dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold|italic"
+                    android:textSize="30sp"
+                    android:textColor="@color/clouds"
+                    android:text="@string/ReminderConfirm"
+                    />
+                <TextView
+                    android:id="@+id/ReminderTextId"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="@color/concrete"
+                    android:textSize="20sp"
+                    android:background="@color/wet_asphalt"
+                    android:hint="@string/YourReminder"
+                    android:textColorHint="@color/concrete"
+
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/clouds"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Time"/>
+
+                <TextView
+                    android:id="@+id/TimeTextId"
+                    android:layout_width="match_parent"
+                    android:background="@color/wet_asphalt"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/TimeText"
+                    android:textColor="@color/concrete"
+                    android:textSize="20sp"
+                    android:textColorHint="@color/concrete"/>
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:textColor="@color/clouds"
+                    android:textSize="30sp"
+                    android:textStyle="bold|italic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Date"/>
+
+                <TextView
+                    android:id="@+id/DateTextId"
+                    android:layout_width="match_parent"
+                    android:background="@color/wet_asphalt"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/DateText"
+                    android:textColor="@color/concrete"
+                    android:textSize="20sp"
+                    android:textColorHint="@color/concrete"/>
+
+
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/ButtonConfirmationId"
+        android:layout_width="match_parent"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:text="@string/ConfirmButton"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/ButtonBackId"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:text="@string/back_button_text"
+        android:layout_gravity="bottom"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
